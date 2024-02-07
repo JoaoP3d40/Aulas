@@ -1,0 +1,38 @@
+print("**************************************")
+print("*      CONSUMO DE COMBUSTÍVEL        *")
+print("**************************************")
+
+#variáveis
+
+carro = ""
+autonomia = 0
+distancia = 0
+preço = 0.0
+quantidade = 0
+total = 0.0
+#entrada de dados
+
+carro = input("Modelo do Carro: ")
+autonomia = input("Autonomia do Carro: ")
+distancia = float(input("Distância da viagem: "))
+preço = float(input("Preço do combustivel: "))
+
+#calculo
+
+quantidade = float(distancia) / float(autonomia)
+total = preço * quantidade
+
+#resultado
+
+print("**************************************")
+print("*            RESULTADO               *")
+print("**************************************")
+
+print("Seu carro é: " + str(carro))
+print("Autonomia: " + str(autonomia) + "Km/L" )
+print("Distancia á percorrer : " + str(distancia) + "km" )
+print("Preço: " + "R$" + str(preço))
+
+print("quantidade: " + str(quantidade) + " L")
+print("total: " + "R$" + str(total))
+

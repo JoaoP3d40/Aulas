@@ -1,0 +1,24 @@
+print("**************************************")
+print("*             MÉDIA FINAL             ")
+print("**************************************")
+print()
+
+nome = ""
+bimestre1 = 0.0
+bimestre2 = 0.0
+bimestre3 = 0.0
+bimestre4 = 0.0
+notaFinal = 0.0
+
+nome = input("NOME DO ALUNO: ")
+bimestre1 = float(input("NOTE DO BIMESTRE 1: "))
+bimestre2 = float(input("NOTE DO BIMESTRE 2: "))
+bimestre3 = float(input("NOTE DO BIMESTRE 3: "))
+bimestre4 = float(input("NOTE DO BIMESTRE 4: "))
+
+notaFinal = (bimestre1 + bimestre2 + bimestre3 + bimestre4) / 4
+
+print("**************************************")
+                  
+print(nome +", a sua nota foi: " + str(notaFinal))
+

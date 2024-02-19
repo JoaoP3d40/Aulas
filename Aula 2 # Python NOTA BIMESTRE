@@ -22,3 +22,11 @@ print("**************************************")
                   
 print(nome +", a sua nota foi: " + str(notaFinal))
 
+if notaFinal <= 7:
+    print( nome + " Você foi Reprovado" + ", Com média de " + str(notaFinal))
+
+else:
+    print( nome + " Você foi Aprovado" + ", Com média de " + str(notaFinal)) 
+
+    
+
